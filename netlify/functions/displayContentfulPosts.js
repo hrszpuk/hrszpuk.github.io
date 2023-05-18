@@ -1,4 +1,4 @@
-import netlifyIdentity from 'netlify-identity-widget';
+const contentful = require('contentful/contentful.node');
 
 exports.handler = async function (event, context) {
   return {
