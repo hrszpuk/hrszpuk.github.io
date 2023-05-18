@@ -1,6 +1,8 @@
-exports.handler = async function (event, context) {
-  const { identity, user } = context.clientContext;
-  // Do stuff and return a response...
+import netlifyIdentity from 'netlify-identity-widget';
 
-  console.log(context.clientContext);
+exports.handler = async function (event, context) {
+  return {
+    statusCode: 200,
+    body: JSON.stringify({ client:context.clientContext}),
+  };
 };
