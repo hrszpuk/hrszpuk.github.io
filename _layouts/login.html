@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
 <body>
 <main>
   {% include header.html %}
@@ -8,12 +10,14 @@
     <h2 class="login-form-title">
       Login
     </h2>
-    <form name="login" method="POST" data-netlify="true">
+    <form name="login" action="/login-success" method="POST" data-netlify="true">
       <input type="text" id="username" name="username" class="login-form-input" placeholder="Username"><br>
       <input type="password" id="password" name="password" class="login-form-input" placeholder="Password"><br>
       <input type="submit" value="Submit">
     </form>
   </div>
+  <div data-netlify-identity-menu></div><br>
+  <div data-netlify-identity-button>Login with Netlify Identity</div>
 
   {% include footer.html %}
 </main>
