@@ -4,6 +4,14 @@
   <body>
   {% include top-bar.html %}
     <main>
+      <div class="test">
+
+      </div>
+      <script>
+        if (logged_in) {
+          document.getElementsByClassName("test")[0].innerHTML = "<p> Hello, functions! </p>"
+        }
+      </script>
       {% include header.html %} {% include bio.html %}
       <section class="articles">
         {% for post in site.posts %}

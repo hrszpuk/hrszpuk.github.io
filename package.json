@@ -1,0 +1,10 @@
+{
+  "name": "blog-website",
+  "version": "1.0.0",
+  "dependencies": {
+    "contentful": "^10.2.0",
+    "gotrue-js": "^0.9.29",
+    "netlify-identity-widget": "^1.9.2"
+  },
+  "type": "module"
+}
