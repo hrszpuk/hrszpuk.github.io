@@ -1,0 +1,17 @@
+:root {
+
+}
+
+* {
+    font-family: inherit;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    -webkit-user-drag: none;
+    -moz-window-dragging: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.login-form {
+    border: #3f3f3f solid 6px;
+}

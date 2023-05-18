@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<main>
+  {% include header.html %}
+  <div class="login-form">
+    <h2 class="login-form-title">
+      Login
+    </h2>
+    <form >
+      <input type="text" id="username" name="username" placeholder="Username"><br>
+      <input type="password" id="password" name="password" placeholder="Password"><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  {% include footer.html %}
+</main>
+{% include category-modal.html%}
+</body>
+</html>

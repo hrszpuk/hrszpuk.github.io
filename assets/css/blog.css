@@ -45,6 +45,17 @@ main {
   padding: 3rem 0;
 }
 
+.login {
+  padding: 18px;
+  float: right;
+}
+
+.login-link {
+  color: cyan;
+  border-bottom: 1px solid cyan;
+  float: right;
+}
+
 /* header */
 
 #bio {

@@ -1,6 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activemodel (7.0.2.3)
+      activesupport (= 7.0.2.3)
+    activerecord (7.0.2.3)
+      activemodel (= 7.0.2.3)
+      activesupport (= 7.0.2.3)
     activesupport (7.0.2.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
@@ -8,12 +13,16 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    brick (1.0.141)
+      activerecord (>= 3.0)
+      fancy_gets
     colorator (1.1.0)
     concurrent-ruby (1.1.10)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    fancy_gets (0.1.10)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
@@ -81,15 +90,20 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
+    we (0.0.2)
+    webrick (1.8.1)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  brick (~> 1.0)
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
   jemoji
+  we (~> 0.0.2)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.3.5
