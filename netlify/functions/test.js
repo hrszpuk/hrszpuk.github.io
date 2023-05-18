@@ -1,9 +1,9 @@
-const netlifyIdentity = require('netlify-identity-widget');
-
-
-netlifyIdentity.init({
-  container: '#netlify-modal', // defaults to document.body
-  locale: 'en' // defaults to 'en'
-});
-
-export
+exports.handler = async function (event, context) {
+  const { identity, user } = context.clientContext;
+  return {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: "hello"
+    })
+  }
+};
