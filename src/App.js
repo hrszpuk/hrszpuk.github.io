@@ -14,7 +14,6 @@ export default function App() {
               <li>(っ´ω`c)♡ coffee addict</li>
               <li>Interested in programming language development, computer graphics, robotics, and hacking!</li>
           </ul>
-          <br />
           <h2>/blog</h2>
           <ul className="dashed">
               <li>Want to read about what I'm working on (╯°□°)╯???</li>
@@ -22,19 +21,17 @@ export default function App() {
               <li><a>0x00000000/</a> &lt;--- example</li>
               <li><a>0x00000000/</a>&lt;--- stuff</li>
           </ul>
-          <br />
           <h2>Do you want to have some fun??!</h2>
           <ul className="dashed">
               <li>Check out the following links ٩(^‿^)۶</li>
               <br />
               <li><a>fun.hrszpuk.com</a> &lt;--- list of experiments/demos</li>
           </ul>
-          <br />
           <h2>/proj</h2>
-          <h4>Highlights</h4>
-          <h4>Notable projects</h4>
+          <h4>> Highlights</h4>
+          <h4>> Notable projects</h4>
           <ul className="dashed">
-              <li></li>
+              <li>(repo) <strong>title | brief description</strong><br />Longer description</li>
           </ul>
       </div>
   )
