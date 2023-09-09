@@ -9,8 +9,9 @@ export default function App() {
           <Navbar />
           <TitledList
               title="hrszpuk"
-              description="Hungry and ready for anything \( ﾟヮﾟ)/"
+              description="A little bit about me..."
               list={[
+                  "Hungry and ready for anything \\( ﾟヮﾟ)/",
                   "Proficient in C/C++, Python, and Go!",
                   "Favourite foods: borscht, pasta bake, cider",
                   "(っ´ω`c)♡ coffee addict",
