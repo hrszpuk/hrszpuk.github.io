@@ -17,19 +17,15 @@
 
 [[main]]
   name = "Projects"
+  pageRef = "projects"
   weight = 20
 
 [[main]]
-  name = "remeta"
-  parent = "Projects"
-  pageRef = "posts"
-  weight = 20
+  name = "About"
+  pageRef = "about"
+  weight = 30
 
-[[main]]
-  name = "Bracccio::Controller"
-  parent = "Projects"
-  pageRef = "posts"
-  weight = 20
+
 
 #[[subnavigation]]
 #  name = "An interesting topic"
