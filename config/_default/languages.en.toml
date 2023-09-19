@@ -8,16 +8,16 @@ title = "hrszpuk.com"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/logo.png"
-  secondaryLogo = "img/secondary-logo.png"
-  description = "My awesome website"
+  #logo = "img/logo.png"
+  #secondaryLogo = "img/secondary-logo.png"
+  description = "A website about new projects, book reviews, and posts about technology in general!"
   copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
   name = "Remy"
-  image = "img/blowfish_logo.png" # TODO add profile picture
+  image = "profilepicture.jpg"
   headline = "Comp Sci Student // Hobbyist Programmer"
-  bio = "Aaaaaaaaaaa"
+  bio = "Comp Sci Student // Professional Question Asker // Robotics Enthusiast"
   links = [
      { github = "https://github.com/hrszpuk" },
 ]
