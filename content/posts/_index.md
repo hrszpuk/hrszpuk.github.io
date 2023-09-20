@@ -9,4 +9,4 @@ permalinks:
         posts: /posts/:slugorfilename
 ---
 Here I talk about new projects, books I've read, and technology in general.
-Please use the [tags](../tags/) and [category](../category/) navigation at the bottom if you're looking for a certain topic or series.
+Please use the [tags](../tags/) and [categories](../categories/) buttons at the bottom if you're looking for certain topics or types of content.
