@@ -1,1 +1,0 @@
-I'm currently working on [remeta](https://github.com/hrszpuk/remeta) a metaprogramming tool for the ReRect programming language
