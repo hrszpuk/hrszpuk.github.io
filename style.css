@@ -4,7 +4,11 @@
 }
 
 .main {
+    height: 300vh;
     display: grid;
+    grid-template-rows: [page1-start] 1fr [page1-middle] 1fr [page1-end page2-start] 1fr [page2-middle] 1fr [page2-end page3-start] 1fr [page3-middle] 1fr [page3-end];
+    grid-template-columns: [start] 1fr [middle-left] 1fr [middle] 1fr [middle-right] 1fr [end];
+    margin: 0 auto;
 }
 
 p {
@@ -13,6 +17,7 @@ p {
 
 nav {
     display: flex;
+    position: absolute;
     background-color: slategray;
     width: 100%;
     height: 50px;
@@ -39,10 +44,6 @@ nav {
     align-content: center;
 }
 
-.navbar ul li {
-
-}
-
 .navbar ul li a {
     padding: 4px 32px;
     font-size: 18px;
@@ -53,16 +54,64 @@ nav {
 }
 
 .centre-piece {
-    margin: 0 auto;
-    width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    grid-column-start: middle-left;
+    grid-column-end: span middle-right;
+    grid-row-start: page1-start;
+    grid-row-end: page1-end;
 }
 
 .centre-piece-column {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+#interests {
+    grid-row: page2-start / page2-end;
+    grid-column: start / span end;
+}
+
+.interests-panel-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.interests-panel-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.interests-panel {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 2fr;
+}
+
+.interests-robotics {
+
+}
+
+.interests-computer-graphics {
+
+}
+
+.interests-ai {
+
+}
+
+.interests-programming-projects {
+
+}
+
+#projects {
+    grid-row-start: page3-start;
+    grid-row-end: page3-end;
 }
 
 
