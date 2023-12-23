@@ -1,5 +1,7 @@
 ---
 import Nav from "../components/nav.astro";
+
+const posts = ["post1", "post2", "post3"]
 ---
 
 <html lang="en">
@@ -16,6 +18,11 @@ import Nav from "../components/nav.astro";
 
 <h1>My Astro Learning Blog</h1>
 <p>This is where I will post about my journey learning Astro.</p>
+
+<h2>My Posts</h2>
+<ul>
+    {posts.map(name => <li><a href=`/posts/${name}`>{name}</a></li>)}
+</ul>
 </body>
 </body>
 </html>
