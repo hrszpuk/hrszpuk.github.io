@@ -8,4 +8,3 @@ This repository holds my personal website.
 - Blog 
   - Posts about books, software, projects, etc
 - Projects 
-  - 
